@@ -1,0 +1,12 @@
+# Copyright 2021 VSAO
+# Author: Vinicius Carlos Afonso
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+{
+    "name": "VSAO POS Addons for TrustCode V15",
+    "version": "15.0.1.0.0",
+    "category": "Generic Modules/Account",
+    "author": "Vinicius Carlos Afonso",
+    "depends": ["res_partner"],
+    "installable": True,
+    "auto_install": False,
+}
