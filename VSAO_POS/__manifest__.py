@@ -6,7 +6,7 @@
     "version": "15.0.1.0.0",
     "category": "Generic Modules/Account",
     "author": "Vinicius Carlos Afonso",
-    "depends": ["res_partner"],
+    "depends": ["l10n_br_base"],
     "installable": True,
     "auto_install": False,
 }
