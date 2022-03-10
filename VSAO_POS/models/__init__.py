@@ -1,1 +1,2 @@
-from . import res_partner, pos_config
+from . import res_partner
+from . import pos_config
