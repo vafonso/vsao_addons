@@ -9,5 +9,5 @@
     "depends": ["l10n_br_base"],
     "installable": True,
     "auto_install": False,
-    "data": ["views/res_partner_view.xml"],
+    "data": ["views/res_partner_view.xml", "pos_config_view.xml"],
 }
