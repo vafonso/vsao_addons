@@ -1,0 +1,16 @@
+<odoo>
+
+  <record id="view_partner_form_inherited" model="ir.ui.view">
+    <field name="name">view_partner_form_inherited</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="bbase.view_partner_form"/>
+    <field name="arch" type="xml">
+      <group position="inside">
+        <group string="PDV">
+          <field name="vsao_POS_available" />
+        </group>
+      </group>
+    </field>
+  </record>
+
+</odoo>
