@@ -5,8 +5,26 @@
     <field name="inherit_id" ref="point_of_sale.res_config_settings_view_form"/>
     <field name="arch" type="xml">
           <xpath expr="//field[@name='module_pos_coupon']" position="after">
-            <field name="vsao_POS_filter_Partner"/>
+            <!--><field name="vsao_POS_filter_Partner"/>
             <label for="vsao_POS_filter_Partner" string="Filtra Clientes no PDV"/>
+            </!-->
+            <div class="col-12 col-lg-6 o_setting_box" title="Filtra Clientes no PDV.">
+                <div class="o_setting_left_pane">
+                    <field name="vsao_POS_filter_Partner"/>
+                </div>
+                <div class="o_setting_right_pane" id="vsao-pos-filter-customer">
+                    <label for="vsao_POS_filter_Partner" string="Filtra Clientes no PDV"/>
+                    <div class="text-muted">
+                        Filtra Clientes no PDV
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
           </xpath>
     </field>
   </record>
