@@ -15,6 +15,5 @@
       <field name="model">res.partner</field>
       <field name="inherit_id" ref="base.res_partner_kanban_view"/>
       <field name="context" eval="{'vsao_POS_filter_Partner': True}"/>
-      </field>
   </record>
 </odoo>
