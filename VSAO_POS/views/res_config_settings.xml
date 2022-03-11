@@ -16,7 +16,8 @@
                 Filtra Clientes no PDV
             </div>
         </div>
-    </div>   
+      </div>   
+    </field>
   </record>
 </odoo>
 
