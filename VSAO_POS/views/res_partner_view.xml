@@ -14,6 +14,6 @@
       <field name="name">res.partner.pos.kanban.inherit</field>
       <field name="model">res.partner</field>
       <field name="inherit_id" ref="base.res_partner_kanban_view"/>
-      <field name="context"={"vsao_POS_filter_Partner":1}</field>
+      <field name="context">{"vsao_POS_filter_Partner":1}</field>
   </record>
 </odoo>
