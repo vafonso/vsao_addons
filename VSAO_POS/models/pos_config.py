@@ -38,7 +38,7 @@ class PosConfig(models.Model):
                 LEFT JOIN pm
                 ON        (
                                     partner.id = pm.partner_id)
-                WHERE "partner.vsao_POS_available" = 1
+                WHERE (partner.vsao_POS_available = 1)
                 ORDER BY  COALESCE(pm.order_count, 0) DESC,
                         NAME limit %s;
             """, [str(self.limited_partners_amount)])
