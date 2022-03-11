@@ -8,6 +8,7 @@
             <field name="vsao_POS_filter_Partner"/>
             <label for="vsao_POS_filter_Partner" string="Filtra Clientes no PDV"/>
             </!-->
+      <xpath expr="//div[@id='pos-coupon']/div[last()]" position="after">
             <div class="col-12 col-lg-6 o_setting_box" title="Filtra Clientes no PDV.">
                 <div class="o_setting_left_pane">
                     <field name="vsao_POS_filter_Partner"/>
@@ -19,7 +20,7 @@
                     </div>
                 </div>
             </div>
-          <!--></xpath></!-->
+        </xpath>
     </field>
   </record>
 </odoo>
