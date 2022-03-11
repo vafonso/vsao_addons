@@ -1,6 +1,6 @@
 from odoo import fields, models
 
-class PosConfig(models.Model):
+class pos_config(models.Model):
     _inherit = 'pos.config'
     _description = 'Customer modification for PDV'
 
