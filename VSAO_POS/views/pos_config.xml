@@ -4,7 +4,7 @@
     <field name="model">pos.config</field>
     <field name="inherit_id" ref="point_of_sale.pos_config_view_form"/>
     <field name="arch" type="xml">
-        <xpath expr="//field[@name='partner_load_background']" position="before">
+        <xpath expr="//field[@name='limited_partners_amount']" position="before">
             <div class="col-12 col-lg-6 o_setting_box">
                 <div class="o_setting_left_pane">
                     <field name="vsao_POS_filter_Partner"/>
