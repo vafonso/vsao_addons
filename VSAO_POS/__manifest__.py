@@ -6,7 +6,7 @@
     "version": "15.0.1.0.0",
     "category": "Generic Modules/Account",
     "author": "Vinicius Carlos Afonso",
-    "depends": ["l10n_br_base"],
+    "depends": ["l10n_br_base","pos_config"],
     "installable": True,
     "auto_install": False,
     "data": ["views/res_partner_view.xml","views/pos_config.xml"],
