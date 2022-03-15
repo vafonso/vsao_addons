@@ -5,9 +5,9 @@
     'summary': 'Tutorial',
     'author': 'Vinicius Carlos Afonso',
     'license': 'LGPL-3',
-    'category': 'Tutorial',
+    'category': 'Services/Tutorial',
     'depends': ["base"],
     'auto_install': False,
     'application': True,
-    'data':["views/library_menu.xml"]
+    'data':["views/vsao_todo_menu.xml"]
 }

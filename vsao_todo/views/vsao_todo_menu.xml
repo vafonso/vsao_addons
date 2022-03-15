@@ -1,4 +1,4 @@
 <odoo>
-    <!-- Library App Menu -->
+    <!-- VSAO TODO App Menu -->
     <menuitem id="menu_vsao_todo" name="VSAO_TODO" />
 </odoo>
