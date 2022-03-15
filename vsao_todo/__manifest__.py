@@ -9,4 +9,5 @@
     'depends': ["base"],
     'auto_install': False,
     'application': True,
+    'data':["views/library_menu.xml"]
 }
