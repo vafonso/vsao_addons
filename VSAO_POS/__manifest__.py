@@ -4,7 +4,7 @@
 {
     "name": "VSAO POS Addons for TrustCode V15",
     "version": "15.0.1.0.0",
-    "category": "Generic Modules/Account",
+    "category": "Generic Modules",
     "author": "Vinicius Carlos Afonso",
     "depends": ["l10n_br_base","point_of_sale"],
     "installable": True,
