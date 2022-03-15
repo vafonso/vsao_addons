@@ -9,5 +9,5 @@
     'depends': ["base"],
     'auto_install': False,
     'application': True,
-    'data':["views/vsao_todo_menu.xml", "security/vsao_todo_menu.xml"]
+    'data':["views/vsao_todo_menu.xml", "security/vsao_todo_security.xml"]
 }
