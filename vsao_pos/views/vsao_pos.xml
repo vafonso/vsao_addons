@@ -5,7 +5,6 @@
         <field name="inherit_id" ref="product.template.product.form"/>
         <field name="arch" type="xml">
             <field name="standard_price" groups="stock.group_stock_user" position="replace">
-            </field>
         </field>
     </record>
 </odoo>
