@@ -5,7 +5,7 @@
             <field name="category_id" ref="base.module_category_usability"/>
         </record>
     </data>
-    
+
     <data>
         <record id="vsao_pos_group_all_contacts" model="res.groups">
             <field name="name">Mostra todos os contatos</field>
