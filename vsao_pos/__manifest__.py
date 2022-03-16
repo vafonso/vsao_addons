@@ -9,7 +9,7 @@
     'license': 'LGPL-3',
     'category': 'Generic Modules',
     'depends': ['base'],
-    'data': ['views/vsao_pos.xml'],
+    'data': ['security/vsao_pos.xml'],
     'auto_install': False,
     'application': False,
 }
