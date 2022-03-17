@@ -13,6 +13,15 @@
             <page name="purchase" position="attributes">
                 <attribute name="groups">__export__.res_groups_68_2e435452</attribute>
             </page>
+            <page name="sale" position="attributes">
+                <attribute name="groups">__export__.res_groups_68_2e435452</attribute>
+            </page>
+            <page name="invoicing" position="attributes">
+                <attribute name="groups">__export__.res_groups_68_2e435452</attribute>
+            </page>
+            <page name="general_information" position="attributes">
+                <attribute name="groups">__export__.res_groups_68_2e435452</attribute>
+            </page>            
         </field>
     </record>
 </odoo>
