@@ -21,4 +21,26 @@
             </page>            
         </field>
     </record>
+    <record id="pos_products_product_inherit" model="ir.ui.view">
+        <field name="name">pos.products.product.inherit</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml">
+            <field name="standard_price" position="attributes">
+                <attribute name="groups">__export__.res_groups_67_ee3186f4</attribute>
+            </field>
+            <page name="purchase" position="attributes">
+                <attribute name="groups">__export__.res_groups_67_ee3186f4</attribute>
+            </page>
+            <page name="sales" position="attributes">
+                <attribute name="groups">__export__.res_groups_67_ee3186f4</attribute>
+            </page>
+            <page name="invoicing" position="attributes">
+                <attribute name="groups">__export__.res_groups_67_ee3186f4</attribute>
+            </page>
+            <page name="general_information" position="attributes">
+                <attribute name="groups">__export__.res_groups_67_ee3186f4</attribute>
+            </page>            
+        </field>
+    </record>
 </odoo>
