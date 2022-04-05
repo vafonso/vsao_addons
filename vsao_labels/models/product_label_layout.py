@@ -7,7 +7,7 @@ class ProductLabelLayout(models.TransientModel):
     print_format = fields.Selection(selection_add=[
         ('vsaoxsemijoia95x12xesquerda', 'ZPL Labels 95x12 Semijoia Esquerda'),
         ('vsaoxsemijoia95x12xdireita', 'ZPL Labels 95x12 Semijoia Direita')
-    ], ondelete={'zplxsemijoia95x12xesquerda': 'set default', 'zplxsemijoia95x12xdireita': 'set default'})
+    ], ondelete={'vsaoxsemijoia95x12xesquerda': 'set default', 'vsaoxsemijoia95x12xdireita': 'set default'})
 
     def _prepare_report_data(self):
         xml_id, data = super()._prepare_report_data()
