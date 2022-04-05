@@ -18,4 +18,19 @@ class ProductLabelLayout(models.TransientModel):
         elif 'vsaoxsemijoia95x12xdireita' in self.print_format:
             xml_id = 'vsao_labels.label_semijoia_95x12_direita'
         
+        active_model = ''
+        if self.product_tmpl_ids:
+            products = self.product_tmpl_ids.ids
+            active_model = 'product.template'
+        elif self.product_ids:
+            products = self.product_ids.ids
+            active_model = 'product.product'
+
+        # Build data to pass to the report
+        data = {
+            'active_model': active_model,
+            'quantity_by_product': {p: self.custom_quantity for p in products},
+            'layout_wizard': self.id,
+            'price_included': 'xprice' in self.print_format,
+        }
         return xml_id, data
