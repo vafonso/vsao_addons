@@ -1,5 +1,6 @@
 from collections import defaultdict
 from odoo import fields, models
+from odoo.exceptions import UserError
 
 class ProductLabelLayout(models.TransientModel):
     _inherit = 'product.label.layout'
@@ -13,8 +14,8 @@ class ProductLabelLayout(models.TransientModel):
         xml_id, data = super()._prepare_report_data()
 
         if 'vsaoxsemijoia95x12xesquerda' in self.print_format:
-            xml_id = 'vsao_labels.report_semijoia_95x12_esquerda'
+            xml_id = 'vsao_labels.label_semijoia_95x12_esquerda'
         elif 'vsaoxsemijoia95x12xdireita' in self.print_format:
-            xml_id = 'vsao_labels.report_semijoia_95x12_direita'
+            xml_id = 'vsao_labels.label_semijoia_95x12_direita'
         
         return xml_id, data
