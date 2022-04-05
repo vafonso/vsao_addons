@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+    <!--
     <record id="report_product_label_semijoia_95x12_esquerda" model="ir.actions.report">
         <field name="name">Etiqueta Semijoia 95x12 Esquerda</field>
         <field name="model">product.template</field>
@@ -9,6 +10,16 @@
         <field name="binding_model_id" ref="model_product_template"/>
         <field name="binding_type">report</field>
     </record>
+    -->
     
+    <record id="report_product_label_semijoia_95x12_esquerda" model="ir.actions.report">
+        <field name="name">Etiqueta Semijoia 95x12 Esquerda ZPL</field>
+        <field name="model">product.template</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">product.report_semijoia_95x12_esquerda</field>
+        <field name="report_file">product.report_semijoia_95x12_esquerda</field>
+        <field name="binding_model_id" eval="False"/>
+        <field name="binding_type">report</field>
+    </record>
 
 </odoo>
