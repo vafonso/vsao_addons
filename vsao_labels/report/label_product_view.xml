@@ -3,5 +3,9 @@
         <template id="report_semijoia_95x12_esquerda">
            
         </template>
+
+        <template id="report_semijoia_95x12_direita">
+           
+        </template>
     </data>
 </odoo>
