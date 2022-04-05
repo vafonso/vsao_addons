@@ -1,5 +1,5 @@
 {
-    'name': 'vsao_lables',
+    'name': 'vsao_labels',
     'version': '1.0',
     'description': 'Cria etiquetas ZPL',
     'author': 'Vinicius Carlos Afonso',
