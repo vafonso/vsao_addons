@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="report_product_label_semijoia_95x12_esquerda" model="ir.actions.report">
+        <field name="field_name">Etiqueta Semijoia 95x12 Esquerda</field>
+        <field name="model">product.template</field>
+        <field name="report_type">qweb-txt</field>
+        <field name="report_name">product_template.report_semijoia_95x12_esquerda</field>
+        <field name="report_file">product_template.report_semijoia_95x12_esquerda</field>
+        <field name="binding_model_id" ref="model_product_template"/>
+        <field name="binding_type">report</field>
+    </record>
+    
+
+</odoo>
