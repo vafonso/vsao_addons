@@ -31,6 +31,6 @@ class ProductLabelLayout(models.TransientModel):
             'active_model': active_model,
             'quantity_by_product': {p: self.custom_quantity for p in products},
             'layout_wizard': self.id,
-            'price_included': 'xprice' in self.print_format,
+            'price_included': 'True',
         }
         return xml_id, data
