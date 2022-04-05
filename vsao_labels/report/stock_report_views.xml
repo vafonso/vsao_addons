@@ -20,7 +20,5 @@
             <field name="binding_type">report</field>
         </record>
 
-    </record>
-
 </odoo>
 
