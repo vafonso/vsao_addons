@@ -2,7 +2,7 @@
 
 <odoo>
     <data>
-        <template id="report_semijoia_95x12_esquerda">
+        <template id="vsao_labels.report_semijoia_95x12_esquerda">
 		<t t-foreach="quantity.items()" t-as="barcode_and_qty_by_product">
                 <t t-set="product" t-value="barcode_and_qty_by_product[0]"/>
                 <t t-foreach="barcode_and_qty_by_product[1]" t-as="barcode_and_qty">
