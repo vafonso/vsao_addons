@@ -13,6 +13,6 @@ class ProductLabelLayout(models.TransientModel):
         xml_id, data = super()._prepare_report_data()
 
         if 'etiqueta95x12_esquerda' in self.print_format:
-            xml_id = 'vsao_product_label.product_joia95x12_esquerda'
+            xml_id = 'vsao_product_label.action_vsao_labels_report_joia95x12_esquerda'
         
         return xml_id, data

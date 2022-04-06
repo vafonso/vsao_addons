@@ -1,6 +1,6 @@
 <odoo>
     <data>
-        <template id="vsao_product_label.product_joia95x12_esquerda">
+        <template id="product_joia95x12_esquerda">
             <t t-foreach="docs" t-as="lot">
                 <t t-translation="off">
                     ^XA ^FO100,50 ^A0N,44,33^FD
