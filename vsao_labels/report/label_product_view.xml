@@ -3,7 +3,6 @@
 <odoo>
     <data>
         <template id="report_semijoia_95x12_esquerda">
-		<t t-foreach="quantity.items()" t-as="barcode_and_qty_by_product">
                 <t t-set="product" t-value="barcode_and_qty_by_product[0]"/>
                 <t t-foreach="barcode_and_qty_by_product[1]" t-as="barcode_and_qty">
                     <t t-set="barcode" t-value="barcode_and_qty[0]"/>
@@ -52,7 +51,6 @@
                     ^FD<t t-esc="lot.name"/>^FS
                     ^XZ
                 </t>
-            </t>
         </template>
 
 

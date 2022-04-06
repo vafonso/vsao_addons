@@ -26,11 +26,4 @@ class ProductLabelLayout(models.TransientModel):
             products = self.product_ids.ids
             active_model = 'product.product'
 
-        # Build data to pass to the report
-        data = {
-            'active_model': active_model,
-            'quantity_by_product': {p: self.custom_quantity for p in products},
-            'layout_wizard': self.id,
-            'price_included': 'True',
-        }
         return xml_id, data
