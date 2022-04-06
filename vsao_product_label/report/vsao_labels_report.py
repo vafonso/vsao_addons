@@ -5,7 +5,7 @@ from odoo.exceptions import UserError
 
 
 class ReportProductLabel(models.AbstractModel):
-    _name = 'report.vsao_product_label.vsao_labels_report'
+    _name = 'report.vsao_product_label.product_joia95x12_esquerda'
     _description = 'Etiquetas para Produtos'
 
     def _get_report_values(self, docids, data):
