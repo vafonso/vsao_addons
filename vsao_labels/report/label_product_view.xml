@@ -3,15 +3,14 @@
 <odoo>
     <data>
         <template id="vsao_labels.report_semijoia_95x12_esquerda">
-            <t t-foreach="quantity.items()" t-as="barcode_and_qty_by_product">
-            <!--<t t-foreach="docs" t-as="package">-->
+            <t t-foreach="docs" t-as="docs">
                 <t t-translation="off">
                     ^XA
                     ^FO100,50
-                    ^A0N,44,33^FD<t t-esc="package.name"/>^FS
+                    ^A0N,44,33^FD<t t-esc="docs.product_id.display_name"/>^FS
                     ^FO100,100^BY3
                     ^BCN,100,Y,N,N
-                    ^FD<t t-esc="package.name"/>^FS
+                    ^FD<t t-esc="docs.name"/>^FS
                     ^XZ
                 </t>
             </t>
