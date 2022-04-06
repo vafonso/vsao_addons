@@ -3,7 +3,7 @@
         <field name="name">Etiqueta Jóia 95x12 - Esquerda (ZPL)</field>
         <field name="model">product.product</field>
         <field name="report_type">qweb-text</field>
-        <field name="report_name">vsao_labels.product_joia95x12_esquerda</field>
+        <field name="report_name">vsao_product_label.product_joia95x12_esquerda</field>
         <field name="binding_model_id" eval="False" />
         <field name="binding_type">report</field>
     </record>
