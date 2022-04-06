@@ -3,7 +3,7 @@
 <odoo>
     <data>
         <template id="vsao_labels.report_semijoia_95x12_esquerda">
-            <t t-foreach="docs" t-as="docs">
+            <!--<t t-foreach="docs" t-as="docs">-->
                 <t t-translation="off">
                     ^XA
                     ^FO100,50
@@ -12,7 +12,7 @@
                     ^BCN,100,Y,N,N
                     ^FD<t t-esc="docs.name"/>^FS
                     ^XZ
-                </t>
+                <!--</t>-->
             </t>
         </template>
 
