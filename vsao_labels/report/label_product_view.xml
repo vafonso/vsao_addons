@@ -2,7 +2,7 @@
 
 <odoo>
     <data>
-        <template id="report_semijoia_95x12_esquerda">
+        <template id="stock.report_semijoia_95x12_esquerda">
             ^XA
             ^FT100,80^A0N,40,30^FD<t t-esc="product.display_name"/>^FS
         </template>
