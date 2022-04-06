@@ -3,7 +3,8 @@
 <odoo>
     <data>
         <template id="vsao_labels.report_semijoia_95x12_esquerda">
-            <t t-foreach="docs" t-as="package">
+            <t t-foreach="quantity.items()" t-as="barcode_and_qty_by_product">
+            <!--<t t-foreach="docs" t-as="package">-->
                 <t t-translation="off">
                     ^XA
                     ^FO100,50
