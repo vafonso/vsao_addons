@@ -7,8 +7,9 @@ class ProductLabelLayout(models.TransientModel):
 
     print_format = fields.Selection(selection_add=[
         ('vsaoxsemijoia95x12xesquerda', 'ZPL Labels 95x12 Semijoia Esquerda'),
-        ('vsaoxsemijoia95x12xdireita', 'ZPL Labels 95x12 Semijoia Direita')
-    ], ondelete={'vsaoxsemijoia95x12xesquerda': 'set default', 'vsaoxsemijoia95x12xdireita': 'set default'})
+        ('vsaoxsemijoia95x12xdireita', 'ZPL Labels 95x12 Semijoia Direita'),
+        ('etiqueta95x12_esquerda', 'Etiqueta 95x12 Semijoia Esquerda (ZPL)')
+    ], ondelete={'vsaoxsemijoia95x12xesquerda': 'set default', 'vsaoxsemijoia95x12xdireita': 'set default', 'etiqueta95x12_esquerda': 'set default'})
 
     def _prepare_report_data(self):
         xml_id, data = super()._prepare_report_data()
@@ -17,6 +18,8 @@ class ProductLabelLayout(models.TransientModel):
             xml_id = 'vsao_labels.label_semijoia_95x12_esquerda'
         elif 'vsaoxsemijoia95x12xdireita' in self.print_format:
             xml_id = 'vsao_labels.label_semijoia_95x12_direita'
+        elif 'etiqueta95x12_esquerda' in self.print_format:
+            xml_id = 'vsao_labels.product_joia95x12_esquerda'
         
         # active_model = ''
         # if self.product_tmpl_ids:
