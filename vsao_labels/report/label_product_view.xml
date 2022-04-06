@@ -12,7 +12,6 @@
                     ^BCN,100,Y,N,N
                     ^FD<t t-esc="package.name"/>^FS
                     ^XZ
-                    </t>
                 </t>
             </t>
         </template>
