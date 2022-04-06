@@ -6,7 +6,7 @@
     'license': 'LGPL-3',
     'depends': ['product'],
     'data': ['report/vsao_labels_report.xml',
-            'vsao_labels_template'], 
+            'vsao_labels_template.xml'], 
     'auto_install': False,
     'application': False,
 }
