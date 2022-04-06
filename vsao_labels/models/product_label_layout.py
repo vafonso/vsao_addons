@@ -5,10 +5,6 @@ from odoo.exceptions import UserError
 class ProductLabelLayout(models.TransientModel):
     _inherit = 'product.label.layout'
 
-    move_line_ids = fields.Many2many('stock.move.line')
-    picking_quantity = fields.Selection([
-        ('picking', 'Transfer Quantities'),
-        ('custom', 'Custom')], string="Quantity to print", required=True, default='custom')
     print_format = fields.Selection(selection_add=[
         ('vsaoxsemijoia95x12xesquerda', 'ZPL Labels 95x12 Semijoia Esquerda'),
         ('vsaoxsemijoia95x12xdireita', 'ZPL Labels 95x12 Semijoia Direita')
