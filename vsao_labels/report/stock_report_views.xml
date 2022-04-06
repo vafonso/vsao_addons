@@ -6,8 +6,8 @@
             <field name="report_type">qweb-text</field>
             <field name="report_name">vsao_labels.report_semijoia_95x12_esquerda</field>
             <field name="report_file">vsao_labels.report_semijoia_95x12_esquerda</field>
-            <field name="binding_model_id" ref="model_product_template"/>
-            <!--<field name="binding_type">report</field>-->
+            <field name="binding_model_id" ref="model_{{mod}}_{{mod}}"/>
+            <field name="binding_type">report</field>
         </record>
 
         <!--<record id="label_semijoia_95x12_direita" model="ir.actions.report">
