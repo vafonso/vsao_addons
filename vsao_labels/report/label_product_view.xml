@@ -7,7 +7,7 @@
                 <t t-translation="off">
                     ^XA
                     ^FO100,50
-                    ^A0N,44,33^FD<t t-esc="docs.product_id.display_name"/>^FS
+                    ^A0N,44,33^FDVSAO<t t-esc="docs.product_id.display_name"/>^FS
                     ^FO100,100^BY3
                     ^BCN,100,Y,N,N
                     ^FD<t t-esc="docs.name"/>^FS
