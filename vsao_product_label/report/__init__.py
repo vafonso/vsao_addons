@@ -1,0 +1,1 @@
+from . import vsao_labels_report
