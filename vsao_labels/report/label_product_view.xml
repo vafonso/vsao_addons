@@ -12,9 +12,10 @@
                     ^BCN,100,Y,N,N
                     ^FD<t t-esc="package.name"/>^FS
                     ^XZ
+                    </t>
                 </t>
             </t>
-        </t>
+        </template>
 
 
         <template id="report_semijoia_95x12_direita">
