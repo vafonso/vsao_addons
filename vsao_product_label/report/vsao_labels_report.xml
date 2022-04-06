@@ -7,11 +7,4 @@
         <field name="binding_model_id" eval="False" />
         <field name="binding_type">report</field>
     </record>
-
-    <data>
-        <template id="vsao_labels.product_joia95x12_esquerda">
-    
-        </template>
-    </data>
-
 </odoo>

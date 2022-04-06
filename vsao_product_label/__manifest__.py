@@ -5,7 +5,8 @@
     'author': 'Vinicius Carlos Afonso',
     'license': 'LGPL-3',
     'depends': ['product'],
-    'data': ['report/vsao_labels_report.xml'], 
+    'data': ['report/vsao_labels_report.xml',
+            'vsao_labels_template'], 
     'auto_install': False,
     'application': False,
 }
