@@ -22,9 +22,11 @@ class ProductLabelLayout(models.TransientModel):
         if self.product_tmpl_ids:
             products = self.product_tmpl_ids.ids
             active_model = 'product.template'
+            Product = self.env['product.template']
         elif self.product_ids:
             products = self.product_ids.ids
             active_model = 'product.product'
+            Product = self.env['product.product']
 
         quantity_by_product = defaultdict(list)
         for p, q in data.get('quantity_by_product').items():
@@ -35,5 +37,5 @@ class ProductLabelLayout(models.TransientModel):
             for product, barcodes_qtys in data.get('custom_barcodes').items():
                 quantity_by_product[Product.browse(int(product))] += (barcodes_qtys)
         data['quantity'] = quantity_by_product
-        s
+        
         return xml_id, data
