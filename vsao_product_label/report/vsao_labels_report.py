@@ -11,6 +11,12 @@ class ReportProductLabel(models.AbstractModel):
     def _get_report_values(self, docids, data):
         return _prepare_data(self.env, data)
 
+class ReportProductLabel2(models.AbstractModel):
+    _name = 'report.vsao_product_label.product_joia95x12_direita'
+    _description = 'Etiquetas para Produtos'
+
+    def _get_report_values(self, docids, data):
+        return _prepare_data(self.env, data)
 
 def _prepare_data(env, data):
     # change product ids by actual product object to get access to fields in xml template
