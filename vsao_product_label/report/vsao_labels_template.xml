@@ -13,7 +13,7 @@
 ^FT290,60^A0N,30,20^FD<t t-esc="product.name[:50]"/>^FS
 ^FB516,1,0,R
 ^FT0,95^A0N,30,50^FH^FD<t t-esc="product.currency_id.symbol"/><t t-esc="product.list_price" t-options='{"widget": "float", "precision": 2}'/>^FS
-^FO550,13^BY2,6
+^FO550,13^BY2,2,3
 ^BCN,53,Y,N,N,A
 ^FD<t t-esc="product.default_code"/>^FS
 ^XZ
